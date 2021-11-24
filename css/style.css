@@ -11,6 +11,15 @@
     align-items: center;
 } 
 
+.footer-container {
+    background-color: #1F2937;
+    display: flex;
+    height: 50px;
+    padding: 0px 300px 0px 300px;
+    justify-content: center;
+    align-items: center;
+} 
+
 .header-container .logo-box {  
     color: #F9FAF8;
     font-size: 24px;
@@ -46,7 +55,8 @@
 
 .img-top {
     height: auto;
-    width: 400px;
+    padding: 0px 50px 0px 50px;
+    width: 550px;
     color: #F9FAF8;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -73,7 +83,7 @@
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .blue-button {
@@ -96,6 +106,16 @@
     gap: 40px;
 } 
 
+.middle-container2 {
+    background-color: #F9FAF8;
+    display: flex;
+    height: auto;
+    padding: 0px 300px 50px 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+} 
+
 .middle-container .middle-box {
     border: 3px solid #3882F6;
     height: 150px;
@@ -103,10 +123,59 @@
     border-radius: 20px;
 }
 
-.middle-container .middle-box-txt {
-    color: #3e526d;
+.middle-box-txt {
+    border: 3px solid transparent;
+    color: #1F2937;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     width: 150px;
     text-align: center;
+}
+
+.bottom-container { 
+    background-color: #E5E7EB;
+    display: flex;
+    height: auto;
+    padding: 0px 300px 0px 300px;
+    justify-content: center;
+    align-items: center;
+} 
+
+.bottom-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 50px;
+}
+
+.bottom-author {
+    color: #1F2937;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+.footer-text {
+    color: #F9FAF8;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.final-container { 
+    background-color: #F9FAF8;
+    display: flex;
+    height: auto;
+    padding: 0px 300px 0px 300px;
+    justify-content: center;
+    align-items: center;
+} 
+
+.final-container .final-box {
+    flex: 1;
+    background-color: #3882F6;
 }
