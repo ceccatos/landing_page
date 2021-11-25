@@ -12,10 +12,14 @@
     background-color: #E5E7EB;
 }
 
+.blue-bg {
+    background-color: #3882F6;
+}
+
 /* TEXT */ 
 .main-text,
 .logo-text,
-.blue-button,
+.sign-button,
 .footer-text {
     color: #F9FAF8;
     font-family: 'Roboto', sans-serif;
@@ -40,16 +44,14 @@
 }
 
 .link-text {
-    text-align: center;
-}
-.secondary-text {
-    margin-top: 2px;
-    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .info-text,
 .quote-text,
-.middle-text {
+.middle-text,
+.author-text {
     color: #1F2937;
     font-family: 'Roboto', sans-serif;    
 }
@@ -58,7 +60,7 @@
     font-size: 36px;
     font-weight: bolder; 
     text-align: center;
-    margin-bottom: 20px; 
+    margin: 20px 0px 20px 0px; 
 }
 
 .quote-text {
@@ -80,16 +82,33 @@
     text-align: center;
 }
 
+.author-text {
+    font-size: 26px;
+    font-weight: bold;
+    justify-content: right;
+}
+
 /* BUTTONS */ 
-.blue-button {
-    background-color: #3882F6;
+.sign-button {
+    width: 100px;
     font-size: 12px;
     border-radius: 4px;
-    border: transparent;
     padding: 5px 10px 5px 10px;
+    border: 2px solid #F9FAF8;
+}
+
+.no_border {
+    border-color: transparent;
 }
 
 /* BOXES */ 
+.column-mode {
+    flex-direction: column;
+}
+
+.gap-10 {
+    gap: 10px;
+}
 
 .blue-border {
     border: 3px solid #3882F6;
@@ -116,7 +135,8 @@
 .top,
 .middle,
 .footer,
-.quote {
+.quote,
+.bottom {
     padding: 0px 300px 0px 300px;
     justify-content: center;
     align-items: center;
@@ -129,8 +149,14 @@
 
 .top,
 .middle,
-.quote {
+.quote,
+.bottom {
     height: auto;
+}
+
+.top {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .middle { 
@@ -149,36 +175,24 @@
     height: auto;
 }
 
+.quote {
+    padding-top: 80px;
+    padding-bottom: 80px;    
+}
+
+.bottom {
+    padding-top: 50px;
+    padding-bottom: 50px;    
+}
+
+.sign-box {
+    padding: 100px;
+    height: 20px;
+}
+
 /* IMAGES */
 .img-top {
     height: auto;
     padding: 0px 50px 0px 50px;
     width: 550px;
 }
-
-/*
-
-.bottom-author {
-    color: #1F2937;
-    font-size: 28px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: right;
-}
-
-
-.final-container { 
-    background-color: #F9FAF8;
-    display: flex;
-    height: auto;
-    padding: 0px 300px 0px 300px;
-    justify-content: center;
-    align-items: center;
-} 
-
-.final-container .final-box {
-    flex: 1;
-    background-color: #3882F6;
-}
-
-*/
