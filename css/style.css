@@ -1,7 +1,8 @@
-/* SHOW GRID */ 
+/* SHOW GRID 
 * {
     border: 1px solid red;
 }
+*/ 
 
 /* BACKGROUND */ 
 .dark-bg {
@@ -119,6 +120,7 @@
 .flex-2.blue-bg.sign-box {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    justify-content: center;
 }
 
 .flex-1.blue-bg.sign-box {
@@ -214,6 +216,6 @@
 }
 
 .img-box {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 96%;
+    max-height: 96%;
 }
