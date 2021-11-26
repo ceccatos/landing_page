@@ -90,8 +90,8 @@
 
 /* BUTTONS */ 
 .sign-button {
-    width: 100px;
-    font-size: 12px;
+    width: 150px;
+    font-size: 16px;
     border-radius: 4px;
     padding: 5px 10px 5px 10px;
     border: 2px solid #F9FAF8;
@@ -113,6 +113,16 @@
 .blue-border {
     border: 3px solid #3882F6;
     border-radius: 20px;
+}
+
+.flex-2.blue-bg.sign-box {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.flex-1.blue-bg.sign-box {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .invisible-border {
