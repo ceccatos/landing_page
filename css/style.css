@@ -84,8 +84,9 @@
 
 .author-text {
     font-size: 26px;
-    font-weight: bold;
-    justify-content: right;
+    font-weight: bolder;
+    text-align: right;
+    padding-right: 100px;
 }
 
 /* BUTTONS */ 
@@ -146,6 +147,7 @@
 .middle,
 .footer,
 .quote,
+.quote-author,
 .bottom {
     padding: 0px 300px 0px 300px;
     justify-content: center;
@@ -160,6 +162,7 @@
 .top,
 .middle,
 .quote,
+.quote-author,
 .bottom {
     height: auto;
 }
@@ -186,7 +189,10 @@
 }
 
 .quote {
-    padding-top: 80px;
+    padding-top: 80px;   
+}
+
+.quote-author {
     padding-bottom: 80px;    
 }
 
@@ -205,4 +211,9 @@
     height: auto;
     padding: 0px 50px 0px 50px;
     width: 550px;
+}
+
+.img-box {
+    max-width: 100%;
+    max-height: 100%;
 }
